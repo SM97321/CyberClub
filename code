@@ -1,0 +1,34 @@
+Code for WSL2 Kali Linux
+
+Starts the GUI for Kali Linux (run this from the Kali command prompt).
+kex
+
+Enables Networking with sound
+kex --win -s
+
+Help
+kex --help
+
+NMAP COMMANDS
+nmap <ipaddress> of the target machine or application.
+
+OPENVPN SETTING ON TRYHACKME.COM
+
+Download your OpenVPN configuration pack
+
+sudo apt install openvpn    Run this in your Kali Linux Terminal 
+
+cd Downloads
+
+sudo openvpn <username>.ovpn   The username you have been issue for tryhackme.com
+
+NETWORKING COMMANDS FROM THE LINUX TERMINAL
+
+ping <weburl> or <ipaddress> ex. ping google.com
+
+traceroute <destination> ex. traceroute google.com
+
+whois<website>
+sudo apt update && sudo apt-get install whois   This is the command line to download and install whois.
+
+ifconfig This command will give you lots of information on the network your on.
